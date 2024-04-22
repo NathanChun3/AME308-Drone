@@ -1,0 +1,769 @@
+Input file: C:\Users\natha\OneDrive\Desktop\AME308-Drone\full_assembly_motion1-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2022
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 2206 (13.0) Apr 18 2022 09:37:20 Intel Release 64bit
+Interface: RC2206P1400rc3 2022-04-26
+Hostname: NATHAN
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [1710@lic-nx.usc.edu]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.960142E-15
+
+ Element: Battery
+    Coordinate    New Value     Original Value  Difference
+    X            -0.11675E-02   -0.11675E-02     0.0000    
+    Y            -0.85040E-07   -0.85040E-07     0.0000    
+    Z            -0.39473E-01   -0.39473E-01     0.0000    
+    E0            0.70647        0.70647         0.0000    
+    E1           -0.52740E-05   -0.52740E-05     0.0000    
+    E2           -0.70774       -0.70774         0.0000    
+    E3           -0.56228E-05   -0.56228E-05     0.0000    
+
+ Element: BodyBottom
+    Coordinate    New Value     Original Value  Difference
+    X            -0.97015E-04   -0.97015E-04     0.0000    
+    Y             0.10112E-05    0.10112E-05     0.0000    
+    Z            -0.28019E-01   -0.28019E-01     0.0000    
+    E0            0.50006        0.50006         0.0000    
+    E1           -0.50009       -0.50009         0.0000    
+    E2           -0.49991       -0.49991         0.0000    
+    E3           -0.49994       -0.49994         0.0000    
+
+ Element: BodyTop
+    Coordinate    New Value     Original Value  Difference
+    X            -0.99251E-04   -0.99251E-04     0.0000    
+    Y            -0.23784E-06   -0.23784E-06     0.0000    
+    Z            -0.72442E-02   -0.72442E-02     0.0000    
+    E0            0.70692        0.70692         0.0000    
+    E1           -0.14657E-02   -0.14657E-02     0.0000    
+    E2           -0.70729       -0.70729         0.0000    
+    E3           -0.14674E-02   -0.14674E-02     0.0000    
+
+ Element: Cage
+    Coordinate    New Value     Original Value  Difference
+    X            -0.13000E-08   -0.13000E-08     0.0000    
+    Y            -0.16900E-08   -0.16900E-08     0.0000    
+    Z            -0.14174E-01   -0.14174E-01     0.0000    
+    E0            0.65443        0.65443         0.0000    
+    E1           -0.26780       -0.26780         0.0000    
+    E2           -0.65443       -0.65443         0.0000    
+    E3           -0.26780       -0.26780         0.0000    
+
+ Element: Foot1
+    Coordinate    New Value     Original Value  Difference
+    X             0.57190E-01    0.57190E-01     0.0000    
+    Y            -0.57190E-01   -0.57190E-01     0.0000    
+    Z            -0.33129E-01   -0.33129E-01     0.0000    
+    E0            0.90818        0.90818         0.0000    
+    E1            0.70240E-01    0.70240E-01     0.0000    
+    E2            0.16957        0.16957         0.0000    
+    E3           -0.37618       -0.37618         0.0000    
+
+ Element: Foot2
+    Coordinate    New Value     Original Value  Difference
+    X             0.57190E-01    0.57190E-01     0.0000    
+    Y             0.57190E-01    0.57190E-01     0.0000    
+    Z            -0.33129E-01   -0.33129E-01     0.0000    
+    E0            0.70239E-01    0.70239E-01     0.0000    
+    E1            0.90818        0.90818         0.0000    
+    E2            0.37618        0.37618         0.0000    
+    E3           -0.16957       -0.16957         0.0000    
+
+ Element: Foot3
+    Coordinate    New Value     Original Value  Difference
+    X            -0.57190E-01   -0.57190E-01     0.0000    
+    Y             0.57190E-01    0.57190E-01     0.0000    
+    Z            -0.33129E-01   -0.33129E-01     0.0000    
+    E0            0.90818        0.90818         0.0000    
+    E1           -0.70240E-01   -0.70240E-01     0.0000    
+    E2           -0.16957       -0.16957         0.0000    
+    E3           -0.37618       -0.37618         0.0000    
+
+ Element: Foot4
+    Coordinate    New Value     Original Value  Difference
+    X            -0.57190E-01   -0.57190E-01     0.0000    
+    Y            -0.57190E-01   -0.57190E-01     0.0000    
+    Z            -0.33129E-01   -0.33129E-01     0.0000    
+    E0           -0.70239E-01   -0.70239E-01     0.0000    
+    E1            0.90818        0.90818         0.0000    
+    E2            0.37618        0.37618         0.0000    
+    E3            0.16957        0.16957         0.0000    
+
+ Element: Motor1
+    Coordinate    New Value     Original Value  Difference
+    X             0.56569E-01    0.56569E-01     0.0000    
+    Y            -0.56569E-01   -0.56569E-01     0.0000    
+    Z            -0.15542E-01   -0.15542E-01     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Motor2
+    Coordinate    New Value     Original Value  Difference
+    X             0.56569E-01    0.56569E-01     0.0000    
+    Y             0.56569E-01    0.56569E-01     0.0000    
+    Z            -0.15542E-01   -0.15542E-01     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Motor3
+    Coordinate    New Value     Original Value  Difference
+    X            -0.56569E-01   -0.56569E-01     0.0000    
+    Y             0.56569E-01    0.56569E-01     0.0000    
+    Z            -0.15542E-01   -0.15542E-01     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Motor4
+    Coordinate    New Value     Original Value  Difference
+    X            -0.56569E-01   -0.56569E-01     0.0000    
+    Y            -0.56569E-01   -0.56569E-01     0.0000    
+    Z            -0.15542E-01   -0.15542E-01     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Prop1
+    Coordinate    New Value     Original Value  Difference
+    X             0.56569E-01    0.56569E-01     0.0000    
+    Y            -0.56569E-01   -0.56569E-01     0.0000    
+    Z             0.90944E-02    0.90944E-02     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.11226E-03   -0.11226E-03     0.0000    
+
+ Element: Prop2
+    Coordinate    New Value     Original Value  Difference
+    X             0.56569E-01    0.56569E-01     0.0000    
+    Y             0.56569E-01    0.56569E-01     0.0000    
+    Z             0.90944E-02    0.90944E-02     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.11226E-03   -0.11226E-03     0.0000    
+
+ Element: Prop3
+    Coordinate    New Value     Original Value  Difference
+    X            -0.56569E-01   -0.56569E-01     0.0000    
+    Y             0.56569E-01    0.56569E-01     0.0000    
+    Z             0.90944E-02    0.90944E-02     0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70719        0.70719         0.0000    
+    E2            0.70703        0.70703         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Prop4
+    Coordinate    New Value     Original Value  Difference
+    X            -0.56569E-01   -0.56569E-01     0.0000    
+    Y            -0.56569E-01   -0.56569E-01     0.0000    
+    Z             0.90944E-02    0.90944E-02     0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.11226E-03   -0.11226E-03     0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Drv001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.99204E-17   -0.99204E-17     0.0000    
+
+ Element: Drv002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.99204E-17   -0.99204E-17     0.0000    
+
+ Element: Drv003_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.96014E-15   -0.96014E-15     0.0000    
+
+ Element: Drv004_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.99204E-17   -0.99204E-17     0.0000    
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: Battery
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BodyBottom
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BodyTop
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Cage
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Foot1
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.130674E-13
+    Z             0.125327E-13
+    E0            0.132704E-13
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Foot2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Foot3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Foot4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Motor1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Motor2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Motor3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Motor4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Prop1
+    Coordinate    Velocity
+    X            -0.154881E-09
+    Y            -0.154882E-09
+    Z              0.00000    
+    E0            0.176337E-02
+    E1             0.00000    
+    E2             0.00000    
+    E3             15.7080    
+
+ Element: Prop2
+    Coordinate    Velocity
+    X             0.154850E-09
+    Y            -0.154724E-09
+    Z              0.00000    
+    E0            0.176337E-02
+    E1             0.00000    
+    E2             0.00000    
+    E3             15.7080    
+
+ Element: Prop3
+    Coordinate    Velocity
+    X             0.154723E-09
+    Y             0.154876E-09
+    Z              0.00000    
+    E0             0.00000    
+    E1            -11.1060    
+    E2             11.1085    
+    E3             0.00000    
+
+ Element: Prop4
+    Coordinate    Velocity
+    X            -0.154882E-09
+    Y             0.154881E-09
+    Z              0.00000    
+    E0            0.176337E-02
+    E1             0.00000    
+    E2             0.00000    
+    E3             15.7080    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Drv001_RZ
+    Coordinate    Velocity
+    Rel.angle      31.4159    
+
+ Element: Drv002_RZ
+    Coordinate    Velocity
+    Rel.angle      31.4159    
+
+ Element: Drv003_RZ
+    Coordinate    Velocity
+    Rel.angle      31.4159    
+
+ Element: Drv004_RZ
+    Coordinate    Velocity
+    Rel.angle      31.4159    
+
+Solution of velocities in local coordinates:
+
+ Element: Battery
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BodyBottom
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BodyTop
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Cage
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Foot1
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.130674E-13
+    Z             0.125327E-13
+    OMEGA_XL     -0.186423E-14
+    OMEGA_YL     -0.450059E-14
+    OMEGA_ZL      0.998414E-14
+
+ Element: Foot2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Foot3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Foot4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Motor1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Motor2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Motor3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Motor4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Prop1
+    Coordinate    Velocity
+    X            -0.154881E-09
+    Y            -0.154882E-09
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       31.4159    
+
+ Element: Prop2
+    Coordinate    Velocity
+    X             0.154850E-09
+    Y            -0.154724E-09
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       31.4159    
+
+ Element: Prop3
+    Coordinate    Velocity
+    X             0.154723E-09
+    Y             0.154876E-09
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL      -31.4159    
+
+ Element: Prop4
+    Coordinate    Velocity
+    X            -0.154882E-09
+    Y             0.154881E-09
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       31.4159    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    107474
+Number of integer data in the system  =     74326
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                  123
+  Number of constraints             =                  123
+
+Solution of accelerations in local coordinates:
+
+ Element: Battery
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: BodyBottom
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: BodyTop
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Cage
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Foot1
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Foot2
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Foot3
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Foot4
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Motor1
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Motor2
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Motor3
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Motor4
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: Prop1
+    Coordinate    Acceleration
+    X             0.486573E-08
+    Y            -0.486572E-08
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL    -0.489192E-14
+
+ Element: Prop2
+    Coordinate    Acceleration
+    X             0.486079E-08
+    Y             0.486474E-08
+    Z            -0.111462E-15
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL    -0.489192E-14
+
+ Element: Prop3
+    Coordinate    Acceleration
+    X            -0.486573E-08
+    Y             0.486079E-08
+    Z             0.888178E-15
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL     0.426326E-12
+
+ Element: Prop4
+    Coordinate    Acceleration
+    X            -0.486572E-08
+    Y            -0.486573E-08
+    Z            -0.888178E-15
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL    -0.489192E-14
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =   17
+
+Total Number of Degrees of Freedom =  106
+Number of Kinematic Constraints    =  106
+Number of Drivers                  =    4
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+[1349]
+  Final statistics (from DOPRI5) :
+  Number of computed steps            =                  507
+  Number of accepted steps            =                  507
+  Number of rejected steps            =                    0
+  Number of acceleration computations =                    1
+  Number of velocity computations     =                 1008
+  Number of position computations     =                  507
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.3530000    
+    Total clock time:          1
